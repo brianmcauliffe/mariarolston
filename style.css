@@ -1,0 +1,164 @@
+body {
+padding : 0;
+margin : 0;
+font : 75% tahoma, "Trebuchet MS", sans-serif;
+line-height : 1.5em;
+background : #111111;
+color : #ffffff;
+}
+#page {
+width : 760px;
+margin : 0 auto;
+padding : 0;
+}
+#banner {
+padding : 0;
+margin-top : 0;
+height : 130px;
+background : url(img/dsc_sea1.jpg) no-repeat right center;
+width : 100%;
+}
+#banner h1 {
+float : right;
+margin-top : 0;
+letter-spacing : 3px;
+font-size : 200%;
+padding : 50px 0 0 0;
+color : #ffffff;
+}
+#banner h3 {
+float : right;
+margin-top : 0;
+letter-spacing : 3px;
+font-size : 100%;
+padding : 75px 0px 0px 0px;
+color : #ffffff;
+}
+
+#navbar ul {
+float : left;
+width : 100%;
+padding : 0;
+margin : 0 ;
+list-style-type : none;
+font-size : 110%;
+text-align : left;
+background : #003333;
+color : #fff;
+}
+#navbar a {
+float : left;
+width : 100px;
+margin-left : 0px;
+text-decoration : none;
+color : #fff;
+background : #003333;
+padding : 0.5em 1.2em;
+}
+#navbar a:hover {
+background : #336666;
+color : #fff;
+}
+#navbar li {
+display : inline;
+}
+#content {
+float : left;
+width : 100%;
+height : 100%;
+background: #ffffff;
+}
+#abcd {
+float : left;
+width : 100%;
+height : 100%;
+background: #ffffff;
+}
+#title {
+float : left;
+width : 100%;
+height : 100%;
+background: #ffffff;
+}
+#bottom {
+clear : both;
+height : 200px;
+padding : 5px;
+margin-top : 5px;
+margin-bottom : 35px;
+background : inherit;
+}
+#footer p {
+text-align : center;
+font-size : 90%;
+padding : 0 0 0 10px;
+color : #c7d9c3;
+}
+#footer {
+float : left;
+width : 100%;
+margin-top : 5px;
+background : #5a8f57;
+}
+#footer a, a:visited {
+color : #333;
+background : inherit;
+text-decoration : underline;
+}
+#footer a:hover {
+color : #92cc8f;
+background : inherit;
+text-decoration : none;
+}
+a:link, a:visited {
+color : #5a8f57;
+background : inherit;
+text-decoration : underline;
+}
+a:hover {
+color : #143d55;
+background : inherit;
+text-decoration : none;
+}
+a img {
+border : 0;
+}
+ul li {
+list-style-type : none;
+}
+.navlist ul li {
+list-style-image : url(images/tee.gif);
+padding-left : 5px;
+margin-bottom : 0;
+}
+h2 {
+letter-spacing : 3px;
+font-size : 120%;
+padding : 10px;
+color : #339999;
+text-align : left;
+}
+h4 {
+letter-spacing : 1px;
+font-size : 100%;
+padding : 10px;
+color : #333333;
+text-align : left;
+}
+h5 {
+font-size : 120%;
+padding : 10px;
+color :#339999;
+}
+
+
+.imgleft {
+float : left;
+padding : 10px;
+}
+.clear {
+clear : both;
+overflow : hidden;
+width : 0;
+height : 1px;
+}
