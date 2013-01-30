@@ -32,7 +32,7 @@
 
 					try 
 					{
-						$conn = new PDO('mysql:host=172.16.5.155;dbname=db1258859_maria', 'u1258859_root', 'domains4us');
+						$conn = new PDO('mysql:host=172.16.5.155;dbname=db1258859_maria', '', '');
 						$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 						$stmt = $conn->prepare('SELECT * FROM articles WHERE id = :id');
 						$stmt->execute(array('id' => $param));
